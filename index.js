@@ -4,7 +4,7 @@ const app = express()
 app.get('/', function (req, res) {
   res.send('Hello MCKV Institute')
 })
-
+ 
 app.get('/courses', function (req, res) {
   res.send('Print all courses')
 })
